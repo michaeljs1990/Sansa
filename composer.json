@@ -1,0 +1,16 @@
+{
+    "name": "mschuett/sansa",
+    "description": "Simple Hacklang router",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Schuett",
+            "email": "michaeljs1990@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mschuett\\Sansa\\": "src/"
+        }
+    }
+}
