@@ -12,7 +12,11 @@ class Route
 
     public function __construct() : void
     {
-        $this->get = $this->put = $this->post = $this->head = $this->delete = Map{};
+	$this->get = Map{};
+	$this->put = Map{};
+	$this->post = Map{};
+	$this->head = Map{};
+	$this->delete = Map{};
     }
 
     public function get(string $path, (function(...): mixed) $s): void
